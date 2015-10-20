@@ -1,0 +1,17 @@
+{
+	"name": "guduoli",
+	"version": "1.0.0",
+	"description": "股多利公司网站",
+	"main": "gulpfile.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "panda",
+	"license": "ISC",
+	"devDependencies": {
+		"gulp": "3.9.0",
+		"browser-sync": "^2.7.10",
+		"gulp-sourcemaps": "^1.5.1",
+		"gulp-less": "3.0.1"
+	}
+}

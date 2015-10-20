@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>股多利</title>
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<script src="js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+	<!--顶部开始-->
+	<div class="top">
+		<div class="nav">		
+			<div class="logo">
+				<img src="images/logo.png" alt="股多利">
+				<span>股多利</span>
+			</div>
+			<div class="logo-right">
+				<ul>
+					<li><a href="index.html">认识股多利</a></li>
+					<li><a href="goumai.html">如何购买</a></li>
+					<li><a href="news.html">新闻中心</a></li>
+					<li><a href="baodian.html">制胜宝典</a></li>
+					<li><a href="connect.html" class="sp">联系我们</a></li>
+				</ul>
+			</div>
+		</div>		
+	</div>
+	<!--顶部结束-->
+	<!--图片开始-->
+	<div class="pic">
+		<img src="images/bg.jpg" alt="">
+		<span>如何购买</span>
+		<a href="goumai.html" title=""></a>
+	</div>
+	<!--图片结束-->
+	<div class="buy">
+		<span>购买流程: 投资者填写私人定制单——投资者汇款转账——股多利回执确认订单——发货(整个流程最快一天内即可完成)</span>
+		<form action="" method="get" accept-charset="utf-8" name="form" onsubmit="return check()">
+			<p>请你详细填写私人定制单</p>
+			<table>
+				<tr>
+					<td>
+						*身份证号码
+					</td>
+					<td>
+						<input id="ID" type="text" name="" value="" placeholder="" class="shuru">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						*手机号码1
+					</td>
+					<td>
+						<input id="num" type="text" name="" value="" placeholder="" class="shuru">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						手机号码2
+					</td>
+					<td>
+						<input type="text" name="" value="" placeholder="" class="shuru">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						*姓名(全称)
+					</td>
+					<td>
+						<input id="username" type="text" name="" value="" placeholder="" class="shuru" >
+					</td>
+				</tr>
+				<tr>
+					<td>
+						*邮箱地址
+					</td>
+					<td>
+						<input id="email" type="text" name="" value="" placeholder="" class="shuru">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						*QQ号
+					</td>
+					<td>
+						<input id="QQ" type="text" name="" value="" placeholder="" class="shuru">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						*通信地址
+					</td>
+					<td>
+						<input id="address" type="text" name="" value="" placeholder="" class="shuru">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						*个人证劵账户所在劵商名称
+					</td>
+					<td>
+						<input id="juanshang" type="text" name="" value="" placeholder="" class="shuru">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						购买日期
+					</td>
+					<td>
+						<input type="text" name="" value="" placeholder="" class="shuru">
+					</td>
+				</tr>
+			</table>
+			<input type="submit" name="" value="提交" class="confirm" id="goumai">
+		</form>
+	</div>
+	<div class="footer">
+		<p>中国证监会核的证劵投资咨询专业机构[ZX0124] IPC备06041668号</p>
+		<ul>
+			<li>风险提示</li>
+			<li>免责声明</li>
+			<li>法律声明</li>
+			<li>资质证书</li>
+			<li>联系我们</li>
+			<li class="last">关于我们</li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		function check(){
+			if($("#ID").val().length==0||$("#num").val().length==0||$("#username").val().length==0||$("#email").val().length==0||$("#QQ").val().length==0||$("#address").val().length==0||$("#juanshang").val().length==0)
+			{
+				alert("您还有未输入的信息，请仔细核对。");
+				return false;
+			}
+		}	
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
